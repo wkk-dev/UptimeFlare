@@ -18,33 +18,33 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'splayer',
+      //id: 'splayer',
       // `name` is used at status page and callback message
-      name: 'SPlayer音乐',
+      //name: 'SPlayer音乐',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://music.wkk-dev.top',
+      //target: 'https://music.wkk-dev.top',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: '适用于网易云音乐的第三方音乐播放器',
+      //tooltip: '适用于网易云音乐的第三方音乐播放器',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://music.wkk-dev.top',
+      //statusPageLink: 'https://music.wkk-dev.top',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       //expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
-      timeout: 10000,
+      //timeout: 10000,
       // [OPTIONAL] headers to be sent
-      headers: {
+      //headers: {
         'User-Agent': 'Uptimeflare',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
       // [OPTIONAL] body to be sent
-      body: 'Hello, world!',
+      //body: 'Hello, world!',
       // [OPTIONAL] if specified, the response must contains the keyword to be considered as operational.
-      responseKeyword: 'success',
+      //responseKeyword: 'success',
       // [OPTIONAL] if specified, the check will run in your specified region,
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
-      checkLocationWorkerRoute: 'https://xxx.example.com',
+      //checkLocationWorkerRoute: 'https://xxx.example.com',
     },
     // Example TCP Monitor
     {
