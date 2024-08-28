@@ -28,7 +28,7 @@ const workerConfig = {
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: '适用于网易云音乐的第三方音乐播放器',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://music.wkk-dev.top',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -48,15 +48,15 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: 'test_tcp_monitor',
-      name: 'Example TCP Monitor',
+      id: 'ncm-api',
+      name: '网易云音乐API',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP_PING',
+      method: 'POST',
       // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
-      tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
-      timeout: 5000,
+      target: 'https://ncm.api.wkk-dev.top',
+      tooltip: '第三方网易云音乐API',
+      statusPageLink: 'https://ncm.api.wkk-dev.top',
+      timeout: 10000,
     },
   ],
   notification: {
