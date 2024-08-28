@@ -56,7 +56,7 @@ const workerConfig = {
       target: 'https://ncm.api.wkk-dev.top',
       tooltip: '第三方网易云音乐API',
       statusPageLink: 'https://ncm.api.wkk-dev.top',
-      expectedCodes: [304],
+      //expectedCodes: [200],
       timeout: 10000,
     },
   ],
