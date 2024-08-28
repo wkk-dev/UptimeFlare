@@ -22,7 +22,7 @@ const workerConfig = {
       // `name` is used at status page and callback message
       name: 'SPlayer音乐',
       // `method` should be a valid HTTP Method
-      method: 'POST',
+      method: 'GET',
       // `target` is a valid URL
       target: 'https://music.wkk-dev.top',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
