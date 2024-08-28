@@ -51,7 +51,7 @@ const workerConfig = {
       id: 'ncm-api',
       name: '网易云音乐API',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'POST',
+      method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://ncm.api.wkk-dev.top',
       tooltip: '第三方网易云音乐API',
