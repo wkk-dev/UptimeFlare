@@ -20,7 +20,7 @@ const workerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'splayer',
       // `name` is used at status page and callback message
-      name: 'SPlayer播放器',
+      name: 'SPlayer音乐',
       // `method` should be a valid HTTP Method
       method: 'POST',
       // `target` is a valid URL
